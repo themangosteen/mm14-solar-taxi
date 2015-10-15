@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:gravity="center_vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/score_trophy_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/image_couldnt_be_shown"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:src="@drawable/trophy" />
+
+    <TextView
+        android:id="@+id/score_lblNewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/score_trophy_view"
+        android:text="@string/score_your_score"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/score_driver_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_below="@id/score_lblNewScore"
+        android:layout_toRightOf="@id/score_trophy_view"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/score_lblEnterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="@string/score_enter_name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/score_editEnterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:ems="6"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnHighscoreOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/play_button"
+            android:onClick="addScoreBtn"
+            android:padding="10dp"
+            android:text="@string/score_add_btn"
+            android:textColor="@drawable/play_color"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/score_checker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score_trophy_view"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/image_couldnt_be_shown"
+        android:src="@drawable/race_check_style" />
+    
+    <Button
+        android:id="@+id/btnShowHighscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/skip_button"
+        android:onClick="skipBtn"
+        android:text="@string/score_skip_btn"
+        android:textColor="@drawable/skip_color"
+        android:textStyle="bold" />
+
+</RelativeLayout>

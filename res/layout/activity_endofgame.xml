@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:gravity="center_vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/splash_crashtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image_couldnt_be_shown"
+        android:scaleType="fitStart"
+        android:src="@drawable/splash_text_gameover" />
+
+    <ImageView
+        android:id="@+id/splash_explosion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image_couldnt_be_shown"
+        android:scaleType="fitStart"
+        android:src="@drawable/taxi_explode" />
+
+    <ImageView
+        android:id="@+id/splash_finished"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image_couldnt_be_shown"
+        android:scaleType="fitStart"
+        android:src="@drawable/splash_game_finished" />
+
+    <ImageView
+        android:id="@+id/splash_ikarustext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image_couldnt_be_shown"
+        android:scaleType="fitStart"
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:src="@drawable/splash_text_ikarus" />
+
+    <ImageView
+        android:id="@+id/splash_ikarusnova"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image_couldnt_be_shown"
+        android:scaleType="fitStart"
+        android:src="@drawable/splash_ikarus_nova" />
+
+    <ImageView
+        android:id="@+id/splash_oobatterytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image_couldnt_be_shown"
+        android:scaleType="fitStart"
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:src="@drawable/splash_text_battery" />
+
+    <ImageView
+        android:id="@+id/splash_oobatteryimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image_couldnt_be_shown"
+        android:scaleType="fitStart"
+        android:src="@drawable/splash_empty_battery" />
+
+</RelativeLayout>

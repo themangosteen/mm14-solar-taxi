@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Solar Taxi</string>
+    <string name="image_couldnt_be_shown">Image couldn\'t be displayed</string>
+    <string name="credits_sign">¢</string>
+    <string name="required_credits">target</string>
+
+    <!-- MENU BUTTONS -->
+    <string name="menu_play_btn">PLAY</string>
+    <string name="menu_highscore_btn">High Scores</string>
+
+    <!-- HIGHSCORES -->
+    <string name="highscores_lblEmpty">No Scores Recorded Yet :)</string>
+    <string name="highscores_entryDelete">Delete Entry</string>
+
+    <!-- ADD HIGHSCORES -->
+    <string name="score_add_btn">ADD SCORE</string>
+    <string name="score_skip_btn">skip</string>
+    <string name="score_enter_name">Driver:</string>
+    <string name="score_your_score">%s CREDITS!</string>
+    <string name="score_err_no_name">Please Enter Your Name!</string>
+    <string name="score_entry_name">%s</string>
+    <string name="score_entry_score">%d</string>
+
+    <!-- ################################################# -->
+    <!-- HELP DIALOUE -->
+    <!-- titles -->
+    <string name="help_title_help">WELCOME to HELP MODE</string>
+    <string name="help_title_aim">AIM of the GAME</string>
+    <string name="help_title_shields">SHIELDS</string>
+    <string name="help_title_battery">BATTERY</string>
+    <string name="help_title_contols">CONTROLS</string>
+    <string name="help_title_stats">CREDITS and PASSENGERS</string>
+    <string name="help_title_buttons">PAUSE, MUSIC, HELP MODE</string>
+
+    <!-- help text (max length is 33 (monospace) used with canvas.draw and not textview) -->
+    <string name="help_0">How does it work?</string>
+    <string name="help_1">Short info will appear in the    </string>
+    <string name="help_2">middle of the screen. Explained  </string>
+    <string name="help_3">elements will be highlighted. </string>
+    <string name="help_4">EXIT:</string>
+    <string name="help_5">Tap on the red question mark. </string>
+    <string name="help_6">NAVIGATION:</string>
+    <string name="help_7">Tap on the yellow arrows.</string>
+
+    <!-- aim of game text -->
+    <string name="aim_0">Exiled but desperate to get home</string>
+    <string name="aim_1">you started an interplanetary</string>
+    <string name="aim_2">Taxi service. Solar Rays serve </string>
+    <string name="aim_3">as your only energy source in</string>
+    <string name="aim_4">this primitive galaxy.</string>
+    <string name="aim_5">LANDING: </string>
+    <string name="aim_6">Align rear of Taxi with planet\'s</string>
+    <string name="aim_7">surface and let gravity pull you.</string>
+
+    <!-- shields text -->
+    <string name="shields_0">The Shield protects you when you</string>
+    <string name="shields_1">crash on a planet, using up extra</string>
+    <string name="shields_2">battery in the process.</string>
+    <string name="shields_3">CRASH with SUN:</string>
+    <string name="shields_4">This causes immediate GameOver. </string>
+    <string name="shields_5">EMPTY BATTERY: </string>
+    <string name="shields_6">Shield is used to boost your</string>
+    <string name="shields_7">battery slightly.</string>
+
+    <!-- battery text -->
+    <string name="battery_0">Shows the current energy level.</string>
+    <string name="battery_1">Energy is used by thrusters. </string>
+    <string name="battery_2">A small extra amount is drained </string>
+    <string name="battery_3">at take-off and after a crash.</string>
+    <string name="battery_4">GAIN ENERGY: </string>
+    <string name="battery_5">Orbit around suns at the right </string>
+    <string name="battery_6">angle. A glowing SolarPanel means</string>
+    <string name="battery_7">that battery is loading.</string>
+
+    <!-- controls text -->
+    <string name="control_0">See marked fields for Controls!</string>
+    <string name="control_right">TAP to turn RIGHT</string>
+    <string name="control_left">TAP to turn LEFT</string>
+    <string name="control_straight">TAP to GO STRAIGHT</string>
+
+    <!-- stats (credits and passengers) -->
+    <string name="stats_0">\'¢..\' shows how much money you </string>
+    <string name="stats_1">have. Below, it shows you how    </string>
+    <string name="stats_2">many passengers occupy your      </string>
+    <string name="stats_3">Taxi (max 3). Passengers get on/-</string>
+    <string name="stats_4">off automatically upon landing. </string>
+    <string name="stats_5">MONEY:</string>
+    <string name="stats_6">Earn the given amount of money to</string>
+    <string name="stats_7">reach the next level (=target).</string>
+    <string name="stats_8">DESTINATION:</string>
+    <string name="stats_9">Indicator tells you which direc- </string>
+    <string name="stats_10">tion target planet is in --></string>
+
+    <!-- buttons (pause, help, music) -->
+    <string name="buttons_0">Using these Buttons you can pause</string>
+    <string name="buttons_1">and unpause the game, turn the   </string>
+    <string name="buttons_2">Sound on and off and get in and  </string>
+    <string name="buttons_3">out of HelpMode.                 </string>
+    <string name="buttons_4">With this you have come to the   </string>
+    <string name="buttons_5">last page of HelpMode, end it to </string>
+    <string name="buttons_6">get back to the game. </string>
+    <string name="buttons_7">Fly safely and all the Best :)   </string>
+
+</resources>

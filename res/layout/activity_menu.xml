@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#000000"
+	android:gravity="center_vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <ImageView android:id="@+id/logo"
+		android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image_couldnt_be_shown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:scaleType="fitStart"
+    	android:src="@drawable/logo_black" />
+    
+    <Button android:id="@+id/play_button"
+		android:layout_centerHorizontal="true"
+        android:layout_below="@id/logo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/play_button"
+        android:padding="10dp"
+        android:text="@string/menu_play_btn"
+        android:textColor="@drawable/play_color"
+        android:textStyle="bold"
+   		android:onClick="startGame" 
+   		    
+   		/>
+    
+    <Button android:id="@+id/highscores_button"
+		android:layout_centerHorizontal="true"
+        android:layout_below="@id/play_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/menu_highscore_btn"
+        android:onClick="showHighscores" />
+
+</RelativeLayout>

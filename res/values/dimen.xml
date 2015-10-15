@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- For Credits -->
+    <dimen name="statusFontSize">18sp</dimen>
+
+    <!-- Set Taxi Speed in dp so speed it doesn't appear slower on bigger devices -->
+    <dimen name="taxi_speed">0.65dp</dimen>
+    
+    <!-- For HelpDialogue Text -->
+    <dimen name="help_button_font_size">20sp</dimen>
+    <dimen name="help_text_size">14sp</dimen>
+    <dimen name="help_heading_size">19sp</dimen>
+
+    <!-- Planet sizes -->
+    <dimen name = "minRadi">55dp</dimen>
+    <dimen name = "maxRadi">340dp</dimen>
+    <dimen name = "s_Planet">80dp</dimen>
+    <dimen name = "m_Planet">100dp</dimen>
+    <dimen name = "l_Planet">300dp</dimen>
+    <dimen name = "xl_Planet">400dp</dimen>
+    
+    <!-- Level Boundaries, set here to avoid cramped levels on bigger screens -->
+    <!-- 100dp translates to around 67p on Samsung Galaxy S3 mini -->
+    <dimen name ="level_1_boundary">4100dp</dimen>
+    
+    <!-- Level Planet distances-->
+    <dimen name = "uniform_dist">670dp</dimen>
+    
+    <!-- Taxi gravity factor -->
+    <dimen name="gravity_factor">87dp</dimen>
+
+
+</resources>

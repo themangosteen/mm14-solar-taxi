@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_theme">#ffd400</color>
+    <color name="main_blue">#66ffff</color>
+    <color name="help_field_BG">#062f55ff</color>
+    <color name="help_text">#cfe2f3</color>
+</resources>
